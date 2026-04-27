@@ -24,6 +24,7 @@ class Clockping < Formula
 
   def install
     bin.install Dir["clockping-darwin-*"].first => "clockping"
+    chmod 0755, bin/"clockping"
     generate_completions_from_executable(bin/"clockping", "completion")
   end
 
