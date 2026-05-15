@@ -4,21 +4,21 @@
 class Clockping < Formula
   desc "A multi-protocol, multi-target pinger for watching hosts go dark"
   homepage "https://github.com/mi2428/clockping"
-  version "1.0.0"
+  version "1.0.1"
   license "MIT"
   depends_on :macos
 
   on_macos do
     on_arm do
-      url "https://github.com/mi2428/clockping/releases/download/v1.0.0/clockping-v1.0.0-darwin-arm64",
+      url "https://github.com/mi2428/clockping/releases/download/v1.0.1/clockping-v1.0.1-darwin-arm64",
           using: :nounzip
-      sha256 "b99b58946bc8e98ef531c69588e4e55a9cdfcc02de951cbb361efc7f438249a9"
+      sha256 "49f954e3ca2b524a10a098b5ee8525e45fb1605318506e2e0aeab27f797acd29"
     end
 
     on_intel do
-      url "https://github.com/mi2428/clockping/releases/download/v1.0.0/clockping-v1.0.0-darwin-amd64",
+      url "https://github.com/mi2428/clockping/releases/download/v1.0.1/clockping-v1.0.1-darwin-amd64",
           using: :nounzip
-      sha256 "77ae2e870a224f0801e5e57e30602271bc089fd048694a61b7d12c4f4d5a36e2"
+      sha256 "0abc86a53c994857140f12c454d2e19f62717d7796d82dab18ce66d9af198103"
     end
   end
 
